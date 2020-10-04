@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "Python: test_yolo",
+            "type": "python",
+            "request": "launch",
+            "program": "test_yolo.py",
+            "console": "integratedTerminal",
+            "args":[
+                "model_data\\yolo.h5",
+                "-o",
+                "D:\\images\\out"
+            ]
+            
+        },
+        {
+            "name": "Python: camera_yolo",
+            "type": "python",
+            "request": "launch",
+            "program": "camera_yolo.py",
+            "console": "integratedTerminal",
+            "args":[
+                "model_data\\yolo.h5",
+                "-o",
+                "D:\\images\\out"
+            ]
+            
+        },
+        {
+            "name": "Python: 目前檔案",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "model_data\\yolov3.h5",
+                "-o",
+                "images\\out",
+                "-t",
+                "C:\\Users\\Jason\\Scripts\\YOLO\\YAD2K-master\\images"
+            ]
+        }
+    ]
+}
