@@ -37,7 +37,7 @@ python camera_yolo.py model_data/yolo.h5
 ```
 ## it will be show now streaming video by url
 ![preview](https://i.imgur.com/0Sw89bW.png)
-![preview](https://i.imgur.com/cvdxlG2.png)
+![preview](https://i.imgur.com/WB8cquj.png)
 
 ## Video preview (you can click image to redirect youtube video)
 [![](https://i.imgur.com/XYNPVnJ.png)](https://youtu.be/pvxmvBcPne8)
