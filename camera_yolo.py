@@ -116,7 +116,7 @@ def _main(args):
 
 
     #video url
-    videoUrl = "https://cctvn11.freeway.gov.tw/vStream.php?pm=210,A57,1"
+    videoUrl = "C:\\Users\\Jason\\Scripts\\YOLO\\YAD2K-master\\images\\20200102   Surf Cam Surf spot Twin Lion beach in Toucheng Yilan County Taiwan ROC.mp4"#"https://thbcctv01.thb.gov.tw/T1A-9K+700"
     cap = cv2.VideoCapture(videoUrl)
 
     while(True):
@@ -133,7 +133,6 @@ def _main(args):
         if cv2.waitKey(1) & 0xFF == ord('q'):
             out = cv2.imwrite('capture.jpg', frame)
             break
-
         frame = cv2.resize(frame, tuple(
             reversed(model_image_size)), Image.BICUBIC)
         image_data = np.array(frame, dtype='float32')
